@@ -50,7 +50,10 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-
+    // adapter:'sails-mongo',
+    // url: 'mongodb+srv://MWT3A3_BaseDeDatos:@{include.#import!!H20}.10@clusterswt3.6gpct.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+    adapter: require('sails-mongo'),
+    url: 'mongodb+srv://MWT3A3_BaseDeDatos:TjdqXQpOioQDF6oN@clusterswt3.6gpct.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
   },
 
 
